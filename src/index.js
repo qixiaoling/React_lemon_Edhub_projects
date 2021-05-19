@@ -11,7 +11,7 @@ import ClassNaarFunction_Vertaald from "./ClassNaarFunction_Vertaald";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Controlled_components_Multi_Inputs  />
+    <App  />
   </React.StrictMode>,
   document.getElementById('root'),
 );

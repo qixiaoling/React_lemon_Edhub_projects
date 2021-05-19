@@ -64,7 +64,7 @@ function App() {
                         value={messageValue}
                         onChange={(e)=>setMessageValue(e.target.value)}
                       />
-                      {/*{messageValue.length > 20 && <p className="error-message">Dit bericht is te lang!</p>}*/}
+                      {messageValue.length > 20 && <p className="error-message">Dit bericht is te lang!</p>}
                   </form>
 
                   <label htmlFor="terms-and-conditions">
